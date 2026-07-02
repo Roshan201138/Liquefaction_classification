@@ -1,14 +1,12 @@
-# Tested with Python 3.10 on Windows.
-# TensorFlow is included because the ANN classifier was saved as a Keras model.
-
 streamlit==1.13.0
+altair==4.2.2
+tensorflow==2.10.1
 protobuf==3.19.6
+scikit-learn==1.2.2
 numpy==1.23.5
 pandas==1.5.3
-scikit-learn==1.2.2
 joblib==1.2.0
-matplotlib==3.7.1
-openpyxl==3.1.2
 xgboost==1.7.6
 lightgbm==4.6.0
-tensorflow==2.10.1
+matplotlib==3.7.1
+openpyxl==3.1.2
